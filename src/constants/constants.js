@@ -2,19 +2,19 @@ export const projects = [
   {
     title: "クエストノート",
     description:
-      "クエスト掲示板を活用した　　　　　　　　　課題解決＋教育アプリケーション　　　　　　　　　　　(おつかいや困りごとを依頼できます)",
+      "クエスト掲示板を活用した課題解決＋教育アプリケーション(おつかいや困りごとを依頼できます)",
     image: "/images/1.png",
-    tags: ["Ruby on Rails", "jQuery", "SQL", "AWS"],
+    tags: ["Ruby on Rails", "jQuery", "MySQL", "AWS"],
     source: "https://github.com/takumakamio/quest-note",
-    visit: "https://google.com",
+    visit: "http://3.212.2.124/",
     id: 0,
   },
   {
     title: "家事計算機",
     description:
-      "共働きの人の家事負担を見える化　　　　　　＋バランス調整するアプリケーション",
+      "共働きの人の家事負担を見える化＋バランス調整するアプリケーション",
     image: "/images/2.png",
-    tags: ["React", "JavaScript"],
+    tags: ["React.js", "Material UI", "Chart.js"],
     source: "https://github.com/takumakamio/housechores-calculator",
     visit: "https://housechores-calculator.vercel.app/",
     id: 1,
