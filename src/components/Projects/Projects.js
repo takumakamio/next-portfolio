@@ -19,7 +19,7 @@ import Divider from "@material-ui/core/Divider";
 
 const Projects = () => (
   <Section nopadding id="projects">
-    <SectionTitle main>ポートフォリオ</SectionTitle>
+    <SectionTitle main>Portfolio</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
@@ -41,8 +41,8 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Site</ExternalLinks>
-              <ExternalLinks href={p.source}>CodeCode</ExternalLinks>
+              <ExternalLinks href={p.visit}>Live Site</ExternalLinks>
+              <ExternalLinks href={p.source}>Github</ExternalLinks>
             </UtilityList>
           </BlogCard>
         );

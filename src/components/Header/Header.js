@@ -13,7 +13,7 @@ import {
 } from "./HeaderStyles";
 
 const Header = () => (
-  <Container >
+  <Container>
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "black" }}>
@@ -33,8 +33,8 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="#tech">
+          <NavLink>Contact</NavLink>
         </Link>
       </li>
     </Div2>
