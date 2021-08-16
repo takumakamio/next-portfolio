@@ -44,6 +44,7 @@ const Technologies = () => (
             React.js <br />
             Next.js <br />
             TypeScript <br />
+            jQuery <br />
             Material UI
           </ListParagraph>
         </ListContainer>
@@ -67,6 +68,7 @@ const Technologies = () => (
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
       <ListItem>
         <ListContainer>
           <ListTitle>インフラ</ListTitle>
