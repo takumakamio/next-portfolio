@@ -6,7 +6,7 @@ export const projects = [
     image: "/images/1.png",
     tags: ["Ruby on Rails", "jQuery", "MySQL", "AWS"],
     source: "https://github.com/takumakamio/quest-note",
-    visit: "http://3.212.2.124/",
+    visit: "https://questnote.net/",
     id: 0,
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     description:
       "共働きの人の家事負担を見える化＋バランス調整するアプリケーション",
     image: "/images/2.png",
-    tags: ["React.js", "Material UI", "Chart.js"],
+    tags: ["React", "Material UI"],
     source: "https://github.com/takumakamio/housechores-calculator",
     visit: "https://housechores-calculator.vercel.app/",
     id: 1,
