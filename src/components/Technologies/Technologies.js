@@ -41,7 +41,7 @@ const Technologies = () => (
             <SiMaterialUi size="2.5rem" style={{ marginLeft: "10px" }} />
           </picture>
           <ListParagraph>
-            React.js <br />
+            React <br />
             Next.js <br />
             TypeScript <br />
             jQuery <br />
