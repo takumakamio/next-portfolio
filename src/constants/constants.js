@@ -16,8 +16,17 @@ export const projects = [
     image: "/images/2.png",
     tags: ["React", "Material UI"],
     source: "https://github.com/takumakamio/housechores-calculator",
-    visit: "https://housechores-calculator.vercel.app/",
+    visit: "https://housechores-calculator-nu.vercel.app/",
     id: 1,
+  },
+  {
+    title: "TraveLog",
+    description: "地図に旅の記録を保存するSNSアプリケーション",
+    image: "/images/3.png",
+    tags: ["React", "Node.js", "Express.js", "MongoDB"],
+    source: "https://github.com/takumakamio/travel-log",
+    visit: "https://trave-log.herokuapp.com/",
+    id: 2,
   },
 ];
 
