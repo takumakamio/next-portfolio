@@ -9,7 +9,7 @@ export const Img = styled.img`
 
 export const GridContainer = styled.section`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding: 3rem;
   place-items: center;
   column-gap: 2rem;
@@ -27,6 +27,7 @@ export const BlogCard = styled.div`
   text-align: center;
   width: 400px;
   border-radius: 10px;
+  margin-right: 5rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
