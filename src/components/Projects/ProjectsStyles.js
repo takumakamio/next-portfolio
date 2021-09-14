@@ -27,10 +27,9 @@ export const BlogCard = styled.div`
   text-align: center;
   width: 400px;
   border-radius: 10px;
-  margin-right: 5rem;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
-    margin-right: 0;
   }
 `;
 export const TitleContent = styled.div`
